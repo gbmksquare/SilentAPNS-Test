@@ -87,7 +87,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 6
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -98,6 +98,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case 0: identifier = "10_per_1_min"
         case 1: identifier = "50_per_1_min"
         case 2: identifier = "100_per_1_min"
+        case 3: identifier = "10_per_1_hour"
+        case 4: identifier = "50_per_1_hour"
+        case 5: identifier = "100_per_1_hour"
         default: break
         }
         
