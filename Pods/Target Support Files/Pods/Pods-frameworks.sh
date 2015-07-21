@@ -48,10 +48,12 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'NWPusher.framework'
   install_framework 'Realm.framework'
   install_framework 'RealmSwift.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'NWPusher.framework'
   install_framework 'Realm.framework'
   install_framework 'RealmSwift.framework'
 fi

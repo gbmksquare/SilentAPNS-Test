@@ -1,4 +1,5 @@
 PODS:
+  - NWPusher (0.6.3)
   - Realm (0.93.2):
     - Realm/Headers (= 0.93.2)
   - Realm/Headers (0.93.2)
@@ -6,9 +7,11 @@ PODS:
     - Realm (= 0.93.2)
 
 DEPENDENCIES:
+  - NWPusher
   - RealmSwift
 
 SPEC CHECKSUMS:
+  NWPusher: 9081e9c7b6a042062e43ce80e968abfd01521421
   Realm: 2fdd0ae74f730e190384e0338d8a0d3654df8220
   RealmSwift: 231b064da9f98b1c4f325fe1f1cb8756aae2b8d6
 

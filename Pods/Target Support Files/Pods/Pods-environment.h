@@ -6,6 +6,12 @@
 // project.
 
 
+// NWPusher
+#define COCOAPODS_POD_AVAILABLE_NWPusher
+#define COCOAPODS_VERSION_MAJOR_NWPusher 0
+#define COCOAPODS_VERSION_MINOR_NWPusher 6
+#define COCOAPODS_VERSION_PATCH_NWPusher 3
+
 // Realm
 #define COCOAPODS_POD_AVAILABLE_Realm
 #define COCOAPODS_VERSION_MAJOR_Realm 0

@@ -5,3 +5,4 @@ use_frameworks!
 link_with 'SilentAPNS-Test'
 
 pod 'RealmSwift'
+pod 'NWPusher'
