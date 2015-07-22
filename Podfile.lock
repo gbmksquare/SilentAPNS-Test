@@ -5,14 +5,17 @@ PODS:
   - Realm/Headers (0.93.2)
   - RealmSwift (0.93.2):
     - Realm (= 0.93.2)
+  - XLForm (3.0.0)
 
 DEPENDENCIES:
   - NWPusher
   - RealmSwift
+  - XLForm
 
 SPEC CHECKSUMS:
   NWPusher: 9081e9c7b6a042062e43ce80e968abfd01521421
   Realm: 2fdd0ae74f730e190384e0338d8a0d3654df8220
   RealmSwift: 231b064da9f98b1c4f325fe1f1cb8756aae2b8d6
+  XLForm: 10fc7eb9e2d5df21a515fa3a794f4e26319abd0e
 
 COCOAPODS: 0.37.2

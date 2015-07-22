@@ -6,3 +6,4 @@ link_with 'SilentAPNS-Test'
 
 pod 'RealmSwift'
 pod 'NWPusher'
+pod 'XLForm'

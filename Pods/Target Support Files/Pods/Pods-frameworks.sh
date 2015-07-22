@@ -51,9 +51,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'NWPusher.framework'
   install_framework 'Realm.framework'
   install_framework 'RealmSwift.framework'
+  install_framework 'XLForm.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'NWPusher.framework'
   install_framework 'Realm.framework'
   install_framework 'RealmSwift.framework'
+  install_framework 'XLForm.framework'
 fi
