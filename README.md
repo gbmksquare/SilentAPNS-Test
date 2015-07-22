@@ -4,13 +4,14 @@ This is a sample application and script to test APNS silent notifications.
 
 To receive remote notifications, configure certificates and provisioning profiles in project settings.
 
-## Prerequisite
+## Sending Notifications
 
-* Ruby (Terminal)
+1. Setup bundle identifier, certificates, and provisioning profiles.
 
-* Houston [https://github.com/nomad/houston](https://github.com/nomad/houston)
+2. Export APNS certificates from the keychain in `.p12` format.
 
+3. Drag and drop certificates to project navigator.
 
-## Result
+4. Add the certificates in `Build Phases` -> `Copy Bundle Resources`.
 
-To get result database file (`.realm`), go to Xcode menu Window -> Devices -> Device Name -> Installed Apps -> SilentAPNS-Test -> Gear button -> Download Container. Realm file is located in the `Document` directory.
+5. Fill in certificate names and password in function `createPusher` in `MainViewController`.

@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161618E21B5E996000CF4332 /* development.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 161618E01B5E993900CF4332 /* development.p12 */; };
+		161618E31B5E996000CF4332 /* distribution.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 161618E11B5E993900CF4332 /* distribution.p12 */; };
 		16282FCB1B525A10005EC41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16282FCA1B525A10005EC41F /* AppDelegate.swift */; };
-		16282FCD1B525A10005EC41F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16282FCC1B525A10005EC41F /* ViewController.swift */; };
 		16282FD01B525A10005EC41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16282FCE1B525A10005EC41F /* Main.storyboard */; };
 		16282FD21B525A10005EC41F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16282FD11B525A10005EC41F /* Images.xcassets */; };
 		16282FD51B525A10005EC41F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16282FD31B525A10005EC41F /* LaunchScreen.xib */; };
-		16282FEF1B5261CD005EC41F /* NotificationRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16282FEE1B5261CD005EC41F /* NotificationRecord.swift */; };
+		167103321B5E01EE00FC388D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167103311B5E01EE00FC388D /* MainViewController.swift */; };
+		167103341B5E076900FC388D /* NewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167103331B5E076900FC388D /* NewTestViewController.swift */; };
+		167103361B5E0C8C00FC388D /* NotificationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167103351B5E0C8C00FC388D /* NotificationOption.swift */; };
+		16A70E051B5E28B500CB2CF5 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A70E041B5E28B500CB2CF5 /* MainCell.swift */; };
+		16A70E071B5E3DFA00CB2CF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A70E061B5E3DFA00CB2CF5 /* DetailViewController.swift */; };
+		16EDB3DB1B5E187D002D74BB /* TrialRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDB3DA1B5E187D002D74BB /* TrialRecord.swift */; };
+		16EDB3DD1B5E1946002D74BB /* NotificationRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EDB3DC1B5E1946002D74BB /* NotificationRecord.swift */; };
 		70ADE6D3ECDA798A63E235B3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450142A7229518DFC6DA53A1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		000A66E299303F1DC3CE129C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		161618E01B5E993900CF4332 /* development.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = development.p12; sourceTree = "<group>"; };
+		161618E11B5E993900CF4332 /* distribution.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = distribution.p12; sourceTree = "<group>"; };
 		16282FC51B525A10005EC41F /* SilentAPNS-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SilentAPNS-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16282FC91B525A10005EC41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16282FCA1B525A10005EC41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16282FCC1B525A10005EC41F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16282FCF1B525A10005EC41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16282FD11B525A10005EC41F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		16282FD41B525A10005EC41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		16282FEE1B5261CD005EC41F /* NotificationRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationRecord.swift; sourceTree = "<group>"; };
+		167103311B5E01EE00FC388D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "view controller/MainViewController.swift"; sourceTree = "<group>"; };
+		167103331B5E076900FC388D /* NewTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewTestViewController.swift; path = "view controller/NewTestViewController.swift"; sourceTree = "<group>"; };
+		167103351B5E0C8C00FC388D /* NotificationOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationOption.swift; path = model/NotificationOption.swift; sourceTree = "<group>"; };
+		16A70E041B5E28B500CB2CF5 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCell.swift; path = "view controller/MainCell.swift"; sourceTree = "<group>"; };
+		16A70E061B5E3DFA00CB2CF5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "view controller/DetailViewController.swift"; sourceTree = "<group>"; };
+		16EDB3DA1B5E187D002D74BB /* TrialRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrialRecord.swift; path = model/TrialRecord.swift; sourceTree = "<group>"; };
+		16EDB3DC1B5E1946002D74BB /* NotificationRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationRecord.swift; path = model/NotificationRecord.swift; sourceTree = "<group>"; };
 		450142A7229518DFC6DA53A1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B889D66ADE692E00741C6C5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		161618DF1B5E992300CF4332 /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				161618E01B5E993900CF4332 /* development.p12 */,
+				161618E11B5E993900CF4332 /* distribution.p12 */,
+			);
+			name = Certificate;
+			sourceTree = "<group>";
+		};
 		16282FBC1B525A10005EC41F = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				16282FEA1B525A1F005EC41F /* Application */,
+				161618DF1B5E992300CF4332 /* Certificate */,
 				16282FEB1B525A29005EC41F /* User Interface */,
 				16282FED1B5261B9005EC41F /* Model */,
 				16282FEC1B525A35005EC41F /* View Controller */,
@@ -93,7 +117,10 @@
 		16282FEC1B525A35005EC41F /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				16282FCC1B525A10005EC41F /* ViewController.swift */,
+				167103311B5E01EE00FC388D /* MainViewController.swift */,
+				16A70E041B5E28B500CB2CF5 /* MainCell.swift */,
+				167103331B5E076900FC388D /* NewTestViewController.swift */,
+				16A70E061B5E3DFA00CB2CF5 /* DetailViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -101,7 +128,9 @@
 		16282FED1B5261B9005EC41F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				16282FEE1B5261CD005EC41F /* NotificationRecord.swift */,
+				167103351B5E0C8C00FC388D /* NotificationOption.swift */,
+				16EDB3DA1B5E187D002D74BB /* TrialRecord.swift */,
+				16EDB3DC1B5E1946002D74BB /* NotificationRecord.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -188,6 +217,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161618E21B5E996000CF4332 /* development.p12 in Resources */,
+				161618E31B5E996000CF4332 /* distribution.p12 in Resources */,
 				16282FD01B525A10005EC41F /* Main.storyboard in Resources */,
 				16282FD51B525A10005EC41F /* LaunchScreen.xib in Resources */,
 				16282FD21B525A10005EC41F /* Images.xcassets in Resources */,
@@ -249,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16282FCD1B525A10005EC41F /* ViewController.swift in Sources */,
 				16282FCB1B525A10005EC41F /* AppDelegate.swift in Sources */,
-				16282FEF1B5261CD005EC41F /* NotificationRecord.swift in Sources */,
+				16A70E051B5E28B500CB2CF5 /* MainCell.swift in Sources */,
+				167103321B5E01EE00FC388D /* MainViewController.swift in Sources */,
+				167103341B5E076900FC388D /* NewTestViewController.swift in Sources */,
+				167103361B5E0C8C00FC388D /* NotificationOption.swift in Sources */,
+				16EDB3DB1B5E187D002D74BB /* TrialRecord.swift in Sources */,
+				16EDB3DD1B5E1946002D74BB /* NotificationRecord.swift in Sources */,
+				16A70E071B5E3DFA00CB2CF5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +402,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: BUMMO KOO (MTTAM6ZCV2)";
 				INFOPLIST_FILE = "SilentAPNS-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f6299c0c-9303-4c67-8005-9ee5dd6d818d";
 			};
